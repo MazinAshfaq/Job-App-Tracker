@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Application Tracker</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="04-form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Application Information</h1>
+      <br />
+      <form method="post" action="https://sheetdb.io/api/v1/bkfqimb03jofk" id="form1">
+
+        <label for="Cname" id="title">Company Name</label>
+
+        <input type="text" id="Cname" name="Cname" required />
+
+        <label for="Ptitle" id="title">Position Title</label>
+        <input type="text" id="Ptitle" name="Ptitle" required />
+
+        <label for="link" id="title">Link</label>
+        <input type="text" id="link" name="link" required />
+
+        <label for="start" id="title">Application Date:</label>
+        <input type="date" id="date" name="date" value="2021-12-10" /><br />
+
+        <div class="spacing">
+          <label for="status" id="title">Application Status:</label>
+          <select name="status" id="status">
+            <option value="default">Application Status</option>
+            <option value="applied">Applied</option>
+            <option value="rejected">Rejected</option>
+            <option value="interview">Interview</option>
+            <option value="offer">Offer</option>
+          </select>
+
+          <label for="refferal" id="title">Refferal:</label><br />
+          <input
+            type="radio"
+            id="yes"
+            name="refferal"
+            value="yes"
+            class="round"
+          />
+          <label for="yes"> Yes</label>
+          <input
+            type="radio"
+            id="no"
+            name="refferal"
+            value="no"
+            class="round"
+          />
+          <label for="no"> No</label><br />
+        </div>
+
+        <label for="notes" id="title">Notes</label><br />
+        <textarea name="notes" id="" cols="30" rows="10"></textarea>
+
+        <div class="button">
+          <button type="submit" id="button1">Submit</button>
+        <div>
+      </form>
+    </div>
+
+    <script src="04-form.js"></script>
+  </body>
+</html>

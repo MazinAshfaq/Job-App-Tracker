@@ -1,0 +1,110 @@
+/* Add your code here */
+
+body {
+  background-color: #0173a0;
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0173a0;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+  min-width: 300px;
+  width: 500px;
+  height: 100%;
+  padding: 30px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+form {
+  width: 100%;
+}
+
+.classselection {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.spacing {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+label#title {
+  font-weight: 700;
+}
+
+#anythingelsetext {
+  height: 150px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#button1,
+#button2 {
+  vertical-align: top;
+  margin: 2px;
+  width: 80%;
+  padding: 10px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: #0173a0;
+  color: white;
+}
+
+#button1:hover {
+  background-color: #0173a06e;
+  color: white;
+}
+
+#button2 {
+  background-color: white;
+  color: #0173a0;
+}
+
+.round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.round:checked {
+  background-color: #3b87fd;
+}
+
+#req {
+  color: #0173a0;
+  font-weight: normal;
+}
